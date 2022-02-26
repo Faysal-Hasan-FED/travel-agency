@@ -1,0 +1,110 @@
+header{
+    background-image: url(/images/Decore.png);
+    height: 100vh;
+}
+.navbar li a{
+    margin-left: 40px;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+}
+
+.hero-header{
+    color: #DF6951;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.link-button{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hero-slogan{
+    font-size: 60px;
+    line-height: 89px;
+    font-weight: 700;
+}
+
+.hero-button{
+    background-color: #F1A501;
+    padding: 10px 10px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+}
+
+.play-button{
+    height: 52px;
+    width: 52px;
+}
+
+.category-image{
+    height: 78px;
+    width: 92px;
+    object-fit: cover;
+}
+
+.destination-image{
+    width: 314px;
+    height: 450px;
+    margin-bottom: -100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.nav-image{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+
+.image1{
+    height: 32px;
+}
+.image2{
+    height: 21px;
+}
+
+.custom-text{
+    color: #DF6951;
+}
+
+.subscribe{
+    background-color: rgb(192, 16, 192);
+    color: whitesmoke;
+}
+
+#subscribe{
+    background-image: linear-gradient(to right, rgb(230, 192, 192) , rgb(245, 83, 159));
+}
+
+@media screen and (max-width: 680px) {
+    .hero-slogan{
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+
+    .destinations{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .destination-image{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .destination{
+        margin-bottom: 50px;
+    }
+
+    .partners img{
+        width: 15%;
+        object-fit: cover;
+    }
+  }
